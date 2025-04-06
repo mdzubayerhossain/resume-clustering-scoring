@@ -14,7 +14,7 @@ nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 # Load dataset
-data = pd.read_csv('./data/resume_dataset.csv')  # Make sure this path is correct
+data = pd.read_csv('./data/UpdatedResumeDataSet.csv')  # Make sure this path is correct
 print("✅ Dataset Loaded")
 
 # Clean and preprocess resume text
